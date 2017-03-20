@@ -1,0 +1,7 @@
+﻿cl : コマンド ライン warning D9030: '/Gm' はマルチプロセシングと互換性がありません。/MP スイッチを無視します
+  Title.cpp
+  Main.cpp
+  GameMain.cpp
+  コードを生成中...
+  SquidDestiny.vcxproj -> C:\Users\vantan\Desktop\SquidDestiny\Debug\SquidDestiny.exe
+  SquidDestiny.vcxproj -> C:\Users\vantan\Desktop\SquidDestiny\Debug\SquidDestiny.pdb (Full PDB)
