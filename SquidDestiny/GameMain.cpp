@@ -15,5 +15,5 @@ void GameMain::update()
 
 void GameMain::draw() const
 {
-
+    background.draw( );
 }
