@@ -5,6 +5,7 @@
 class GameMain : public MyGame::Scene
 {
 private:
+    Texture background = Texture( L"Example/brick.jpg" );
 
 public:
 
