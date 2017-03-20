@@ -10,7 +10,7 @@ void Title::init()
 	// ...Title/‚Ì’†‚Ésea.png‚ª–³‚©‚Á‚½‚ç‰¼‰æ‘œ‚ð•\Ž¦
 	if (!background)
 	{
-		background = Texture(L"Texture/Background/Title/sea_temp.png");
+		background = Texture(L"Texture/Background/sea_temp.png");
 	}
 }
 
