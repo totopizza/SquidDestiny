@@ -5,6 +5,8 @@
 class GameMain : public MyGame::Scene
 {
 private:
+	Vec2 windowCenter;
+
     Texture background = Texture( L"Example/brick.jpg" );
 
 public:

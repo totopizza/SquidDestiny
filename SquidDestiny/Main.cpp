@@ -7,7 +7,10 @@
 
 void Main()
 {
+	Window::SetTitle(L"イカのさだめ");
 	Window::Resize(375, 667);
+
+	FontAsset::Register(L"ikamodoki", 35, L"イカモドキ");
 
 	MyGame manager;
 

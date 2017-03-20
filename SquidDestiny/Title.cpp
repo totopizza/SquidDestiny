@@ -3,6 +3,8 @@
 void Title::init()
 {
 	Graphics::SetBackground(Palette::Red);
+
+	windowCenter = Vec2(Window::Width() / 2, Window::Height() / 2);
 }
 
 void Title::update()
@@ -15,5 +17,5 @@ void Title::update()
 
 void Title::draw() const
 {
-
+	FontAsset(L"ikamodoki")(L"クリックして\nつぎのシーンへ！").drawCenter(windowCenter);
 }

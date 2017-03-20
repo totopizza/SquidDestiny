@@ -5,6 +5,7 @@
 class Title : public MyGame::Scene
 {
 private:
+	Vec2 windowCenter;
 
 public:
 
